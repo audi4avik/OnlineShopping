@@ -7,6 +7,7 @@ Resource    ../Resources/Ecommerce.robot
 Test Setup    Common.Begin Test
 Test Teardown    Common.Begin Teardown
 
+# Run All: robot -d Results -T Tests\*robot
 *** Test Cases ***
 Test Login Scenarios
     [Documentation]  This is the templated login test cases
